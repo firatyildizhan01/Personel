@@ -84,5 +84,10 @@ namespace Personel
         {
             label8.Text = "False";
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
