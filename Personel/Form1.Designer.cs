@@ -257,7 +257,7 @@ namespace Personel
             // 
             // btnGrafikler
             // 
-            this.btnGrafikler.Location = new System.Drawing.Point(6, 185);
+            this.btnGrafikler.Location = new System.Drawing.Point(17, 185);
             this.btnGrafikler.Name = "btnGrafikler";
             this.btnGrafikler.Size = new System.Drawing.Size(75, 23);
             this.btnGrafikler.TabIndex = 6;
@@ -266,43 +266,47 @@ namespace Personel
             // 
             // btnİstatistik
             // 
-            this.btnİstatistik.Location = new System.Drawing.Point(6, 156);
+            this.btnİstatistik.Location = new System.Drawing.Point(17, 156);
             this.btnİstatistik.Name = "btnİstatistik";
             this.btnİstatistik.Size = new System.Drawing.Size(75, 23);
             this.btnİstatistik.TabIndex = 5;
             this.btnİstatistik.Text = "istatistik";
             this.btnİstatistik.UseVisualStyleBackColor = true;
+            this.btnİstatistik.Click += new System.EventHandler(this.btnİstatistik_Click);
             // 
             // btnTemizle
             // 
-            this.btnTemizle.Location = new System.Drawing.Point(6, 127);
+            this.btnTemizle.Location = new System.Drawing.Point(17, 127);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(75, 23);
             this.btnTemizle.TabIndex = 4;
             this.btnTemizle.Text = "Temizle";
             this.btnTemizle.UseVisualStyleBackColor = true;
+            this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
             // btnGüncelle
             // 
-            this.btnGüncelle.Location = new System.Drawing.Point(6, 102);
+            this.btnGüncelle.Location = new System.Drawing.Point(17, 102);
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.Size = new System.Drawing.Size(75, 23);
             this.btnGüncelle.TabIndex = 3;
             this.btnGüncelle.Text = "Güncelle";
             this.btnGüncelle.UseVisualStyleBackColor = true;
+            this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
             // 
             // btnSil
             // 
-            this.btnSil.Location = new System.Drawing.Point(6, 73);
+            this.btnSil.Location = new System.Drawing.Point(17, 73);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(75, 23);
             this.btnSil.TabIndex = 2;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnKaydet
             // 
-            this.btnKaydet.Location = new System.Drawing.Point(6, 47);
+            this.btnKaydet.Location = new System.Drawing.Point(17, 47);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(75, 23);
             this.btnKaydet.TabIndex = 1;
@@ -312,7 +316,7 @@ namespace Personel
             // 
             // btnList
             // 
-            this.btnList.Location = new System.Drawing.Point(6, 19);
+            this.btnList.Location = new System.Drawing.Point(17, 19);
             this.btnList.Name = "btnList";
             this.btnList.Size = new System.Drawing.Size(75, 23);
             this.btnList.TabIndex = 0;
@@ -348,6 +352,7 @@ namespace Personel
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(746, 202);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // perİdDataGridViewTextBoxColumn
             // 
@@ -419,11 +424,12 @@ namespace Personel
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(369, 180);
+            this.label8.Location = new System.Drawing.Point(333, 176);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 6;
             this.label8.Text = "label8";
+            this.label8.TextChanged += new System.EventHandler(this.label8_TextChanged);
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // Form1
