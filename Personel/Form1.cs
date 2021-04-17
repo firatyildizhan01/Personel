@@ -158,5 +158,10 @@ namespace Personel
             Form2 frm = new Form2();
             frm.Show();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

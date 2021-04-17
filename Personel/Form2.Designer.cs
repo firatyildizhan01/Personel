@@ -34,12 +34,12 @@ namespace Personel
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblToplamPersonel = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblEvli = new System.Windows.Forms.Label();
+            this.lblBekar = new System.Windows.Forms.Label();
+            this.lblŞehir = new System.Windows.Forms.Label();
+            this.lblToplamMaaş = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblOrtalama = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -89,45 +89,45 @@ namespace Personel
             this.lblToplamPersonel.TabIndex = 0;
             this.lblToplamPersonel.Text = "0";
             // 
-            // label5
+            // lblEvli
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(171, 44);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(19, 20);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "0";
+            this.lblEvli.AutoSize = true;
+            this.lblEvli.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblEvli.Location = new System.Drawing.Point(171, 44);
+            this.lblEvli.Name = "lblEvli";
+            this.lblEvli.Size = new System.Drawing.Size(19, 20);
+            this.lblEvli.TabIndex = 0;
+            this.lblEvli.Text = "0";
             // 
-            // label7
+            // lblBekar
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(171, 73);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(19, 20);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "0";
+            this.lblBekar.AutoSize = true;
+            this.lblBekar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBekar.Location = new System.Drawing.Point(171, 73);
+            this.lblBekar.Name = "lblBekar";
+            this.lblBekar.Size = new System.Drawing.Size(19, 20);
+            this.lblBekar.TabIndex = 0;
+            this.lblBekar.Text = "0";
             // 
-            // label8
+            // lblŞehir
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(171, 100);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(19, 20);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "0";
+            this.lblŞehir.AutoSize = true;
+            this.lblŞehir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblŞehir.Location = new System.Drawing.Point(171, 100);
+            this.lblŞehir.Name = "lblŞehir";
+            this.lblŞehir.Size = new System.Drawing.Size(19, 20);
+            this.lblŞehir.TabIndex = 0;
+            this.lblŞehir.Text = "0";
             // 
-            // label9
+            // lblToplamMaaş
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(171, 125);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(19, 20);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "0";
+            this.lblToplamMaaş.AutoSize = true;
+            this.lblToplamMaaş.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblToplamMaaş.Location = new System.Drawing.Point(171, 125);
+            this.lblToplamMaaş.Name = "lblToplamMaaş";
+            this.lblToplamMaaş.Size = new System.Drawing.Size(19, 20);
+            this.lblToplamMaaş.TabIndex = 0;
+            this.lblToplamMaaş.Text = "0";
             // 
             // label10
             // 
@@ -138,15 +138,15 @@ namespace Personel
             this.label10.TabIndex = 0;
             this.label10.Text = "Toplam Maaş:";
             // 
-            // label11
+            // lblOrtalama
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(171, 152);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(19, 20);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "0";
+            this.lblOrtalama.AutoSize = true;
+            this.lblOrtalama.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblOrtalama.Location = new System.Drawing.Point(171, 152);
+            this.lblOrtalama.Name = "lblOrtalama";
+            this.lblOrtalama.Size = new System.Drawing.Size(19, 20);
+            this.lblOrtalama.TabIndex = 0;
+            this.lblOrtalama.Text = "0";
             // 
             // label12
             // 
@@ -165,13 +165,13 @@ namespace Personel
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lblOrtalama);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.lblToplamMaaş);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblŞehir);
+            this.Controls.Add(this.lblBekar);
+            this.Controls.Add(this.lblEvli);
             this.Controls.Add(this.lblToplamPersonel);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
@@ -189,12 +189,12 @@ namespace Personel
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblToplamPersonel;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblEvli;
+        private System.Windows.Forms.Label lblBekar;
+        private System.Windows.Forms.Label lblŞehir;
+        private System.Windows.Forms.Label lblToplamMaaş;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblOrtalama;
         private System.Windows.Forms.Label label12;
     }
 }
