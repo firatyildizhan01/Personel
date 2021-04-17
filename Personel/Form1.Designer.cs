@@ -69,6 +69,7 @@ namespace Personel
             this.pctBox = new System.Windows.Forms.PictureBox();
             this.table_1_realTableAdapter = new Personel.TBL_CANAVARDataSetTableAdapters.Table_1_realTableAdapter();
             this.label8 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -242,6 +243,7 @@ namespace Personel
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.btnGrafikler);
             this.groupBox2.Controls.Add(this.btnİstatistik);
             this.groupBox2.Controls.Add(this.btnTemizle);
@@ -249,25 +251,26 @@ namespace Personel
             this.groupBox2.Controls.Add(this.btnSil);
             this.groupBox2.Controls.Add(this.btnKaydet);
             this.groupBox2.Controls.Add(this.btnList);
-            this.groupBox2.Location = new System.Drawing.Point(220, 12);
+            this.groupBox2.Location = new System.Drawing.Point(219, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(107, 232);
+            this.groupBox2.Size = new System.Drawing.Size(108, 248);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "İşlemler";
             // 
             // btnGrafikler
             // 
-            this.btnGrafikler.Location = new System.Drawing.Point(17, 185);
+            this.btnGrafikler.Location = new System.Drawing.Point(17, 184);
             this.btnGrafikler.Name = "btnGrafikler";
             this.btnGrafikler.Size = new System.Drawing.Size(75, 23);
             this.btnGrafikler.TabIndex = 6;
             this.btnGrafikler.Text = "Grafikler";
             this.btnGrafikler.UseVisualStyleBackColor = true;
+            this.btnGrafikler.Click += new System.EventHandler(this.btnGrafikler_Click);
             // 
             // btnİstatistik
             // 
-            this.btnİstatistik.Location = new System.Drawing.Point(17, 156);
+            this.btnİstatistik.Location = new System.Drawing.Point(17, 155);
             this.btnİstatistik.Name = "btnİstatistik";
             this.btnİstatistik.Size = new System.Drawing.Size(75, 23);
             this.btnİstatistik.TabIndex = 5;
@@ -277,7 +280,7 @@ namespace Personel
             // 
             // btnTemizle
             // 
-            this.btnTemizle.Location = new System.Drawing.Point(17, 127);
+            this.btnTemizle.Location = new System.Drawing.Point(17, 126);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(75, 23);
             this.btnTemizle.TabIndex = 4;
@@ -287,7 +290,7 @@ namespace Personel
             // 
             // btnGüncelle
             // 
-            this.btnGüncelle.Location = new System.Drawing.Point(17, 102);
+            this.btnGüncelle.Location = new System.Drawing.Point(17, 101);
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.Size = new System.Drawing.Size(75, 23);
             this.btnGüncelle.TabIndex = 3;
@@ -297,7 +300,7 @@ namespace Personel
             // 
             // btnSil
             // 
-            this.btnSil.Location = new System.Drawing.Point(17, 73);
+            this.btnSil.Location = new System.Drawing.Point(17, 72);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(75, 23);
             this.btnSil.TabIndex = 2;
@@ -307,7 +310,7 @@ namespace Personel
             // 
             // btnKaydet
             // 
-            this.btnKaydet.Location = new System.Drawing.Point(17, 47);
+            this.btnKaydet.Location = new System.Drawing.Point(17, 46);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(75, 23);
             this.btnKaydet.TabIndex = 1;
@@ -317,7 +320,7 @@ namespace Personel
             // 
             // btnList
             // 
-            this.btnList.Location = new System.Drawing.Point(17, 19);
+            this.btnList.Location = new System.Drawing.Point(17, 18);
             this.btnList.Name = "btnList";
             this.btnList.Size = new System.Drawing.Size(75, 23);
             this.btnList.TabIndex = 0;
@@ -328,9 +331,9 @@ namespace Personel
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.dataGridView1);
-            this.groupBox4.Location = new System.Drawing.Point(12, 250);
+            this.groupBox4.Location = new System.Drawing.Point(12, 266);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(752, 221);
+            this.groupBox4.Size = new System.Drawing.Size(752, 205);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Kayıtlar";
@@ -351,7 +354,7 @@ namespace Personel
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 16);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(746, 202);
+            this.dataGridView1.Size = new System.Drawing.Size(746, 186);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
@@ -433,6 +436,16 @@ namespace Personel
             this.label8.TextChanged += new System.EventHandler(this.label8_TextChanged);
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(17, 210);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Raporlama";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnGrafikler_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -500,6 +513,7 @@ namespace Personel
         private System.Windows.Forms.DataGridViewCheckBoxColumn perDurumDataGridViewCheckBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn perMeslekDataGridViewTextBoxColumn;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button1;
     }
 }
 

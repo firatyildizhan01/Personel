@@ -163,5 +163,11 @@ namespace Personel
         {
 
         }
+
+        private void btnGrafikler_Click(object sender, EventArgs e)
+        {
+            Form3 frg = new Form3();
+            frg.Show();
+        }
     }
 }

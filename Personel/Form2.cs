@@ -57,7 +57,7 @@ namespace Personel
             baglanti.Close();
 
             baglanti.Open();
-            SqlCommand komut6 = new SqlCommand("Select Sum(PerMaas) From Table_1_real", baglanti);
+            SqlCommand komut6 = new SqlCommand("Select Sum(perMaaş) From Table_1_real", baglanti);
             SqlDataReader dr5 = komut6.ExecuteReader();
             while (dr5.Read())
             {
@@ -66,8 +66,14 @@ namespace Personel
 
             baglanti.Close();
 
-
-
+            baglanti.Open();
+            SqlCommand komut7 = new SqlCommand("Select Avg(perMaaş) From Table_1_real", baglanti);
+            SqlDataReader dr6 = komut7.ExecuteReader();
+            while (dr6.Read())
+            {
+                lblOrtalama.Text = dr6[0].ToString();
+            }
+            baglanti.Close();
 
         }
     }
